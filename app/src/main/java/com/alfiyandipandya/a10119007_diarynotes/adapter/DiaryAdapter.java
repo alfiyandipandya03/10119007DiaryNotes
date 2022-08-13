@@ -1,5 +1,9 @@
 package com.alfiyandipandya.a10119007_diarynotes.adapter;
 
+// NIM   : 10119007
+// Nama  : Alfiyandi Pandya K
+// Kelas : IF-1
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,12 +21,11 @@ import java.util.List;
 
 public class DiaryAdapter extends BaseAdapter {
 
-    private Context context;
+    private final Context context;
     private List<DiaryModel> diaryAdapter;
     private LayoutInflater layoutInflater;
-    private TextView title, category;
 
-    public DiaryAdapter(Context context, List<DiaryModel> noteAdapter) {
+    public DiaryAdapter(Context context, List<DiaryModel> diaryAdapter) {
 //        this.activity = activity;
         this.context = context;
         this.diaryAdapter = diaryAdapter;
@@ -55,8 +58,8 @@ public class DiaryAdapter extends BaseAdapter {
 
         if (convertView != null) {
             DiaryModel note = diaryAdapter.get(position);
-            title = convertView.findViewById(R.id.title);
-            category = convertView.findViewById(R.id.category);
+            TextView title = convertView.findViewById(R.id.title);
+            TextView category = convertView.findViewById(R.id.category);
             title.setText(note.getTitle());
             category.setText(note.getCategory());
         }

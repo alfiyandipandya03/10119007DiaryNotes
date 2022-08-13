@@ -1,5 +1,9 @@
 package com.alfiyandipandya.a10119007_diarynotes.fragment.viewpager2;
 
+// NIM   : 10119007
+// Nama  : Alfiyandi Pandya K
+// Kelas : IF-1
+
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;

@@ -1,3 +1,7 @@
+// NIM   : 10119007
+// Nama  : Alfiyandi Pandya K
+// Kelas : IF-1
+
 package com.alfiyandipandya.a10119007_diarynotes.activity;
 
 import android.content.Intent;

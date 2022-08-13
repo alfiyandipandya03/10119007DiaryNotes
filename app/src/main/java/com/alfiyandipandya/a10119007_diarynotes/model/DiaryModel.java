@@ -1,5 +1,9 @@
 package com.alfiyandipandya.a10119007_diarynotes.model;
 
+// NIM   : 10119007
+// Nama  : Alfiyandi Pandya K
+// Kelas : IF-1
+
 public class DiaryModel {
     private int id;
     private String title, category, note;

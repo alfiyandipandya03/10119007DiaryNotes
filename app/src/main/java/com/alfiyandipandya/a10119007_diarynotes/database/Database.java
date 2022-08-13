@@ -1,5 +1,9 @@
 package com.alfiyandipandya.a10119007_diarynotes.database;
 
+// NIM   : 10119007
+// Nama  : Alfiyandi Pandya K
+// Kelas : IF-1
+
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;

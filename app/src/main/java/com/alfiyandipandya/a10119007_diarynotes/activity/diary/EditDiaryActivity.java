@@ -1,5 +1,9 @@
 package com.alfiyandipandya.a10119007_diarynotes.activity.diary;
 
+// NIM   : 10119007
+// Nama  : Alfiyandi Pandya K
+// Kelas : IF-1
+
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;

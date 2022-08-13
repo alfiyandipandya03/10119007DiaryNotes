@@ -1,9 +1,13 @@
+// NIM   : 10119007
+// Nama  : Alfiyandi Pandya K
+// Kelas : IF-1
 package com.alfiyandipandya.a10119007_diarynotes;
-import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.alfiyandipandya.a10119007_diarynotes.activity.SignInActivity;
 
@@ -21,6 +25,6 @@ public class SplashScreenActivity extends AppCompatActivity {
                 startActivity(goToSignInActivity);
                 finish();
             }
-        }, 1000);
+        }, 2000);
     }
 }
