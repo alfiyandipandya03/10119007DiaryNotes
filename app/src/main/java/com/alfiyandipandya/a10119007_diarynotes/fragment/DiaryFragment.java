@@ -35,7 +35,7 @@ public class DiaryFragment extends Fragment {
     private Cursor cursor;
     private Database database;
     private FloatingActionButton floatingActionButton;
-    private DiaryAdapter noteAdapter;
+    private DiaryAdapter diaryAdapter;
 
     public DiaryFragment() {
         // Required empty public constructor
@@ -60,12 +60,12 @@ public class DiaryFragment extends Fragment {
             }
         });
 
-        noteAdapter = new DiaryAdapter(getContext(), listNote);
+        diaryAdapter = new DiaryAdapter(getContext(), listNote);
         listView = view.findViewById(R.id.container_list_view);
         database = new Database(getContext());
         getAllNote();
         refreshList(view);
-        noteAdapter.notifyDataSetChanged();
+        diaryAdapter.notifyDataSetChanged();
         return view;
     }
 
@@ -84,7 +84,7 @@ public class DiaryFragment extends Fragment {
             } while (cursor.moveToNext());
         }
         cursor.close();
-        noteAdapter.notifyDataSetChanged();
+        diaryAdapter.notifyDataSetChanged();
     }
 
     private void refreshList(View view) {
@@ -103,7 +103,7 @@ public class DiaryFragment extends Fragment {
 //        }
 //        cursor.close();
 
-        listView.setAdapter(noteAdapter);
+        listView.setAdapter(diaryAdapter);
         listView.setSelected(true);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
