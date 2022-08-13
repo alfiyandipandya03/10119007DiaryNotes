@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "148198792347",
+    "project_id": "diarynotes-f2c0d",
+    "storage_bucket": "diarynotes-f2c0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148198792347:android:fc5fd598e3898ee1157a3e",
+        "android_client_info": {
+          "package_name": "com.alfiyandipandya.a10119007_diarynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148198792347-tm9246ousdek50d4gb6g4muficblnj1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1ltbYxYK9Ib5R26OT-cC9q3Dq5rDDkv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148198792347-tm9246ousdek50d4gb6g4muficblnj1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

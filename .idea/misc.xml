@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/mine/Kuliah/Android Project/10119007DiaryNotes/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.137" />
+        <entry key="..\:/mine/Kuliah/Android Project/10119007DiaryNotes/app/src/main/res/drawable/ic_baseline_sticky_note_2_24.xml" value="0.137" />
+        <entry key="..\:/mine/Kuliah/Android Project/10119007DiaryNotes/app/src/main/res/layout/activity_add_diary.xml" value="0.22826086956521738" />
+        <entry key="..\:/mine/Kuliah/Android Project/10119007DiaryNotes/app/src/main/res/layout/activity_detail_diary.xml" value="0.22826086956521738" />
+        <entry key="..\:/mine/Kuliah/Android Project/10119007DiaryNotes/app/src/main/res/layout/activity_edit_diary.xml" value="0.25" />
+        <entry key="..\:/mine/Kuliah/Android Project/10119007DiaryNotes/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/mine/Kuliah/Android Project/10119007DiaryNotes/app/src/main/res/layout/activity_sign_in.xml" value="0.22826086956521738" />
+        <entry key="..\:/mine/Kuliah/Android Project/10119007DiaryNotes/app/src/main/res/layout/activity_sign_up.xml" value="0.22826086956521738" />
+        <entry key="..\:/mine/Kuliah/Android Project/10119007DiaryNotes/app/src/main/res/layout/activity_splash_screen.xml" value="0.22826086956521738" />
+        <entry key="..\:/mine/Kuliah/Android Project/10119007DiaryNotes/app/src/main/res/layout/fragment_diary.xml" value="0.22826086956521738" />
+        <entry key="..\:/mine/Kuliah/Android Project/10119007DiaryNotes/app/src/main/res/layout/fragment_first_view_pager.xml" value="0.22826086956521738" />
+        <entry key="..\:/mine/Kuliah/Android Project/10119007DiaryNotes/app/src/main/res/layout/fragment_info.xml" value="0.22826086956521738" />
+        <entry key="..\:/mine/Kuliah/Android Project/10119007DiaryNotes/app/src/main/res/layout/fragment_second_view_pager.xml" value="0.22826086956521738" />
+        <entry key="..\:/mine/Kuliah/Android Project/10119007DiaryNotes/app/src/main/res/layout/fragment_user.xml" value="0.22826086956521738" />
+        <entry key="..\:/mine/Kuliah/Android Project/10119007DiaryNotes/app/src/main/res/layout/list_item.xml" value="0.22826086956521738" />
+        <entry key="..\:/mine/Kuliah/Android Project/10119007DiaryNotes/app/src/main/res/menu/bottom_navigation.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
